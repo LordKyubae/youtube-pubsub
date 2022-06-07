@@ -1,0 +1,25 @@
+{
+  "name": "youtube-pubsub",
+  "version": "1.0.0",
+  "description": "YouTube Push Notifications with PubSub",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint src/*.js"
+  },
+  "keywords": [
+    "Youtube",
+    "Notifcation",
+    "pubsub",
+    "pubsubhubbub"
+  ],
+  "author": "LordKyubae",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.17.1",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
