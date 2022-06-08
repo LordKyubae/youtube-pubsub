@@ -11,7 +11,6 @@ const xmlbodyparser = require('./xmlParser');
 const base_topic = 'https://www.youtube.com/xml/feeds/videos.xml?channel_id=';
 
 class YouTubePubsub extends EventEmitter {
-
   constructor(options = {}) {
     if (!options.callback) throw new Error('You need to provide the callback URL.');
     super();
